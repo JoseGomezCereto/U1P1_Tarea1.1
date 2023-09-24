@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MultiContador</string>
+    <string name="reset">RESET</string>
+    <string name="plusOne">+1</string>
+    <string name="resetAll">RESET ALL</string>
+    <string name="counterDefault">0</string>
+    <string name="strCounterTop">%1$d</string>
+    <string name="strCounterUpper">%1$d</string>
+    <string name="strCounterLower">%1$d</string>
+    <string name="strCounterBottom">%1$d</string>
+    <string name="strTotalCounter">%1$d</string>
+</resources>
