@@ -113,16 +113,20 @@ public class MainActivity extends AppCompatActivity {
                 if (v.getId() == RESET_TOP_BUTTON_ID) {  //comparamos la ID, de ser igual que el botón que estamos pulsando
                     counterTop = 0; //La variable vuelve a cero y más abajo, el texto también vuelve a cero.
                     binding.txtCounterTop.setText(getString(R.string.strCounterTop, counterTop));
-                } else if (v.getId() == RESET_UPPER_BUTTON_ID) {
+                }
+                if (v.getId() == RESET_UPPER_BUTTON_ID) {
                     counterUpper = 0;
                     binding.txtCounterUpper.setText(getString(R.string.strCounterUpper, counterUpper));
-                } else if (v.getId() == RESET_LOWER_BUTTON_ID) {
+                }
+                if (v.getId() == RESET_LOWER_BUTTON_ID) {
                     counterLower = 0;
                     binding.txtCounterLower.setText(getString(R.string.strCounterLower, counterLower));
-                } else if (v.getId() == RESET_BOTTOM_BUTTON_ID) {
+                }
+                if (v.getId() == RESET_BOTTOM_BUTTON_ID) {
                     counterBottom = 0;
                     binding.txtCounterBottom.setText(getString(R.string.strCounterBottom, counterBottom));
-                } else if (v.getId() == RESET_ALL_BUTTON_ID) { //En el reset total tenemos que
+                }
+                if (v.getId() == RESET_ALL_BUTTON_ID) { //En el reset total tenemos que
                     //Resetear toads las variables
                     counterTop = 0;
                     counterUpper = 0;

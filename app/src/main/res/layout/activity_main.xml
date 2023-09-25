@@ -15,6 +15,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:title="@string/app_name"
             app:titleTextColor="@color/white"/>
+
     <TextView
             android:text="TextView"
             android:layout_width="66dp"
@@ -63,8 +64,8 @@
             android:layout_height="60dp" android:id="@+id/btnResetAll"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="98dp" app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginBottom="573dp" android:layout_marginEnd="50dp"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            android:layout_marginBottom="573dp" android:layout_marginEnd="56dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintVertical_bias="0.0"/>
     <Button
             android:text="@string/plusOne"
             android:layout_width="wrap_content"
@@ -123,6 +124,5 @@
             app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginBottom="171dp" android:layout_marginEnd="41dp"
             app:layout_constraintEnd_toEndOf="parent"/>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
